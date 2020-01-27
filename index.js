@@ -193,7 +193,8 @@ restService.post("/dialogflow_request", async (req, res, next) => {
 function getGameOver(tries) {
     return "Gratulation! Du hast es in " + tries + " Versuchen geschafft! Nun die ganze Geschichte: Der Bewohner der einsamen Behausung war Wärter des wichtigsten Leuchtturms an einer Küste. Im Radio wurde an diesem Morgen vom größtem Schiffsunglück aller Zeiten berichtet.\n" +
         "\n" +
-        "Am Abend zuvor hatte der Leuchtturmwärter tatsächlich vergessen, das Licht einzuschalten. Diesen Fehler würde er sich nie verzeihen..."
+        "Am Abend zuvor hatte der Leuchtturmwärter tatsächlich vergessen, das Licht einzuschalten. Diesen Fehler würde er sich nie verzeihen..." +
+        "\n" + "Bitte fülle nun noch die Umfrage auf https://forms.gle/Ja7EutU5aRkvScPNA aus."
 }
 
 async function getHint(session) {
