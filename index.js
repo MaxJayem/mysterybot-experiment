@@ -194,7 +194,7 @@ function getGameOver(tries) {
     return "Gratulation! Du hast es in " + tries + " Versuchen geschafft! Nun die ganze Geschichte: Der Bewohner der einsamen Behausung war Wärter des wichtigsten Leuchtturms an einer Küste. Im Radio wurde an diesem Morgen vom größtem Schiffsunglück aller Zeiten berichtet.\n" +
         "\n" +
         "Am Abend zuvor hatte der Leuchtturmwärter tatsächlich vergessen, das Licht einzuschalten. Diesen Fehler würde er sich nie verzeihen..." +
-        "\n" + "Bitte fülle nun noch die Umfrage auf" + "<a href='https://forms.gle/Ja7EutU5aRkvScPNA'>Link</a>" + "aus."
+        "\n" + "Bitte fülle nun noch die Umfrage aus: " + "<a href='https://forms.gle/Ja7EutU5aRkvScPNA'>Hier zur Umfrage.</a>"
 }
 
 async function getHint(session) {
